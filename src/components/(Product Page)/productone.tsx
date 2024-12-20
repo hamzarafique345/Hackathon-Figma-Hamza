@@ -16,38 +16,15 @@ export default function OurProductPage() {
 
   return (
     <div className="px-4 sm:px-8 md:px-52 py-8 mt-8" >
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <div>
         <h1 className="text-2xl  md:text-3xl font-bold mb-8 pl-4 ">Feauture Product</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
-          {FeatureImage.map((val, i) => (
+          {FeatureImage.map((val, i:number) => (
          <div key={i} className="flex flex-col items-center bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
               <Link href={
               "./Productpage"
              } >     <div className="w-full h-64 overflow-hidden">
-                 <Image
+         <Image
                   src={val}
                   alt={`Sofa${i}`}
                   width={400}

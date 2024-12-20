@@ -6,13 +6,13 @@ import React from 'react'
 
 export default function page() {
   return (
-    <div>
+    <div >
       
 
 
 <Card/>
-   <OurProductPage/>
-   <Footer/>
+<OurProductPage/>
+<Footer/>
     </div>
   )
 }

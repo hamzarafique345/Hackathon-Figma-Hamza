@@ -7,6 +7,10 @@ interface Category {
   product: string;
 }
 
+
+
+
+
 export default function Topcategory() {
   const Data: Category[] = [
     {
