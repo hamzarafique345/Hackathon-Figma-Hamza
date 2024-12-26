@@ -15,7 +15,7 @@ export default function OurProduct() {
   ];
 
   return (
-    <div className="px-4 sm:px-8 md:px-52 py-8 mt-28" >
+    <div className="px-4 sm:px-8 md:px-52 py-8 mt-28 max-w-screen-2xl m-auto" >
 
       <div>
         <h1 className="text-2xl  md:text-3xl font-bold mb-4 pl-4 text-center">Our Product</h1>

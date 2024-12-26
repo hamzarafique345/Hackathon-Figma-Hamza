@@ -20,7 +20,7 @@ export default function Feature() {
   ];
 
   return (
-    <div className="px-4 sm:px-8 md:px-48 py-8">
+    <div className="px-4 sm:px-8 md:px-48 py-8 max-w-screen-2xl m-auto">
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-8">
         {Data.map((val, i) => (
           <div key={i} className="flex justify-center">

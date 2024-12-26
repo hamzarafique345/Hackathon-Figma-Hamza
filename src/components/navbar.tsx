@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="flex flex-col text-white">
+    <div className="flex flex-col text-white ">
       {/* First Section */}
       <div className="flex justify-between items-center px-12 sm:px-16 md:px-28 lg:px-40 bg-purple-950 text-slate-300 py-2 text-xs sm:text-sm">
         <div>

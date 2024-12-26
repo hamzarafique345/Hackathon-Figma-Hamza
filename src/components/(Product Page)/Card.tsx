@@ -5,7 +5,7 @@ import React from 'react';
 
 export default function Card() {
   return (
-    <div className="flex flex-col md:flex-row md:px-32 lg:px-48 px-6 sm:px-12 md:py-12 space-y-6 md:space-y-0 md:space-x-6 items-center md:items-start">
+    <div className="flex flex-col md:flex-row md:px-32 lg:px-48 px-6 sm:px-12 md:py-12 space-y-6 md:space-y-0 md:space-x-6 items-center md:items-start max-w-screen-2xl m-auto">
       {/* Image Section */}
       <div className="w-full md:w-1/2 rounded-lg overflow-hidden">
         <div className="relative w-full h-64 md:h-96">

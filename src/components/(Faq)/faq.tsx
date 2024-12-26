@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Faq() {
   return (
-    <div className="flex flex-col items-center px-4 md:px-8 mx-auto w-full max-w-screen-lg">
+    <div className="flex flex-col items-center px-4 md:px-8 mx-auto w-full max-w-screen-xl m-auto">
       <h1 className="text-center font-bold text-3xl md:text-4xl mt-10 mb-4">Question Look Here</h1>
       <p className="text-center mb-8 text-gray-600">
         Here are some common questions about our chair collection. Find the answers below.

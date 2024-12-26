@@ -19,3 +19,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.writing-mode-vertical {
+  writing-mode: vertical-lr; /* Makes text flow vertically */
+  text-orientation: upright; /* Ensures upright letters */
+}

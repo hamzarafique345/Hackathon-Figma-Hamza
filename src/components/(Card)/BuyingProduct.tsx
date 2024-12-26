@@ -5,7 +5,7 @@ import { FiTrash } from 'react-icons/fi'; // Delete icon
 
 export default function BuyingProduct() {
   return (
-    <div className="container mx-auto p-4 md:p-8 lg:px-24 lg:py-12">
+    <div className="container mx-auto p-4 md:p-8 lg:px-24 lg:py-12 max-w-screen-2xl m-auto">
       <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-10">
         {/* Products Section */}
         <div className="w-full md:w-3/5">

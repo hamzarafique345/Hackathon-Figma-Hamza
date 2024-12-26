@@ -15,7 +15,7 @@ export default function OurProductPage() {
   ];
 
   return (
-    <div className="px-4 sm:px-8 md:px-52 py-8 mt-8" >
+    <div className="px-4 sm:px-8 md:px-52 py-8 mt-8 max-w-screen-2xl m-auto" >
       <div>
         <h1 className="text-2xl  md:text-3xl font-bold mb-8 pl-4 ">Feauture Product</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">

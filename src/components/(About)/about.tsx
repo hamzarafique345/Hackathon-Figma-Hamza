@@ -1,17 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import { FaCartShopping } from 'react-icons/fa6';
 
 export default function About() {
-  const featureImages = [
-    '/featuredata/Sofa1.png',
-    '/featuredata/Sofa2.png',
-    '/featuredata/Sofa3.png',
-    '/featuredata/Sofa4.png',
-  ];
 
   return (
-    <section className="text-gray-600 body-font py-12">
+    <section className="text-gray-600 body-font py-12 max-w-screen-2xl m-auto">
       <div className="container px-5 md:px-28 mx-auto flex flex-wrap md:flex-nowrap justify-center md:justify-between">
         {/* Content Section */}
         <div className="w-full md:w-1/2 px-4 md:px-8 mb-6 md:mb-0 bg-teal-600 p-8 rounded-lg shadow-lg text-white flex flex-col justify-between items-center md:items-start">
@@ -57,37 +50,7 @@ export default function About() {
         ))}
       </div>
 
-      {/* Featured Products Section */}
-      <div className="px-4 sm:px-8 md:px-48 py-8">
-        <h1 className="text-2xl font-bold mb-4 pl-4">Our Popular Product Products</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
-          {featureImages.map((val, i) => (
-            <div
-              key={i}
-              className="flex flex-col items-center bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
-            >
-              <div className="w-full h-64 overflow-hidden">
-                <Image
-                  src={val}
-                  alt={`Sofa${i}`}
-                  width={400}
-                  height={400}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="flex justify-between w-full px-4 py-2">
-                <div className="flex flex-col items-start">
-                  <h2 className="font-medium text-lg mb-1">Library Stone Chair</h2>
-                  <span className="text-black text-lg font-bold">$20</span>
-                </div>
-                <div className="flex items-center">
-                  <FaCartShopping className="w-6 h-6 sm:w-8 sm:h-8 text-emerald-500 cursor-pointer transition-transform duration-300 hover:scale-110" />
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+    
     </section>
   );
 }
